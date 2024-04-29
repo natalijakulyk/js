@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS.FORM-2</title>
+    <link rel="stylesheet" href="./style(2).css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@500&family=Russo+One&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="headaer__nav">
+            <a href="./index(1).html" class="header_nav-logo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/LEGO_logo.svg/512px-LEGO_logo.svg.png" alt="" class="header__nav-logo-img">
+            </a>
+            <div class="header_nav-list">
+                <a href="./index(1).html" class="nav-list_item">ABOUT US</a>
+                <a href="https://www.lego.com/cs-cz/categories/lego-merchandise" class="nav-list_item">TRADE</a>
+                <a href="https://www.lego.com/cs-cz/aboutus" class="nav-list_item">FIND OUT MORE</a>
+                <a href="https://www.lego.com/cs-cz/stores" class="nav-list_item">STORE</a>
+            </div>
+            <a href="" class="header_nav-button">
+                <img src="./img/lego head.png" alt="" class="header_nav-button-img">
+                Log in</a>
+        </nav>
+    </header>
+
+    <div class="main-part">
+        <img src="https://i.pinimg.com/564x/23/6b/b6/236bb689f4c570f95c808a62e6a7772c.jpg" alt="" class="form-img-right">
+
+        <div class="form">
+            <h1 class="form-title">LOGIN</h1>
+            <div class="form-block">
+                <label class="form-label" for="">
+                    User Name
+                    <p class="form-label-warning">check out your name</p>
+                </label>
+                <input class="form-input userName " type="text">
+                <label class="form-label" for="">
+                    Password
+                    <p class="form-label-warning-1">check out your passward</p>
+                </label>
+                <input class="form-input userPassword"  type="password">
+                <label class="form-label" for="">
+                    E-mail
+                    <p class="form-label-warning-2">check out your e-mail</p>
+                </label>
+                <input class="form-input userEmail"  type="email">
+                <label class="form-label" for="">
+                    Phone Number
+                    <p class="form-label-warning-3">check out your phone number</p>
+                </label>
+                <input class="form-input phoneNum"  type="tel">
+            </div>
+            <button class="form-button">Registration</button>
+        </div>
+    </div>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p id="modalText"></p>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

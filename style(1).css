@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+:root {
+    --boss: rgb(160, 160, 160);
+    --colors: rgb(210, 198, 198);
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+body{
+    overflow: hidden;
+    height: 100vh;
+}
+
+.header {
+    width: 100%;
+    background-color: #ffd502;
+    margin: 0 auto;
+}
+
+.headaer__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.header_nav-logo {}
+
+.header__nav-logo-img {
+    max-width: 60px;
+    width: 100%;
+}
+
+.header_nav-list {
+    display: flex;
+    gap: 40px;
+
+}
+
+.nav-list_item {
+    color: white;
+    font-weight: 900;
+    font-size: 22px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.header_nav-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #e3000b;
+    color: white;
+    font-size: 22px;
+    font-weight: 900;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.header_nav-button-img {
+    max-width: 45px;
+    width: 100%;
+    padding-right: 15px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 68%;
+    width: 100%;
+    margin: 0 auto;
+    background-image: url(./img/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.main_txt {
+    max-width: 400px;
+    width: 100%;
+    font-family: "Kanit", sans-serif;
+    font-style: normal;
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    background-color: #e3000b;
+    padding: 10px;
+    text-align: center;
+    margin: 20px;
+}
+
+.main__right-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 500px;
+    width: 100%;
+    font-family: "Kanit", sans-serif;
+    font-style: normal;
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+.main_img {
+    width: 60%;
+}
+
+.main_button {
+    font-family: "Kanit", sans-serif;
+    font-style: normal;
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    background-color: #e3000b;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+.footer {
+    width: 100%;
+    background-color: #ffd502;
+    position: relative;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.sm-img {
+    margin-inline: 10px;
+}
+
+.social-medias-img{
+    max-width: 40px;
+    width: 100%;
+    gap: 30px;
+}
+
+.footer_txt {
+    font-family: "Kanit", sans-serif;
+    font-style: normal;
+    color: white;
+    font-weight: 900;
+    font-size: 25px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    padding: 10px;
+    margin: 0 auto;
+}

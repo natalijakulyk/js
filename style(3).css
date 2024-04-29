@@ -1,0 +1,187 @@
+.header {
+    width: 100%;
+    background-color: #ffd502;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.headaer__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+    font-family: "Kanit", sans-serif;
+    font-style: normal;
+    color: white;
+    font-weight: 900;
+    font-size: 22px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.header_nav-logo {}
+
+.header__nav-logo-img {
+    max-width: 60px;
+    width: 100%;
+}
+
+.header_nav-list {
+    display: flex;
+    gap: 40px;
+
+}
+
+.nav-list_item {
+    font-family: "Kanit", sans-serif;
+    font-style: normal;
+    color: white;
+    font-weight: 900;
+    font-size: 22px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.header_nav-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #e3000b;
+    font-family: "Kanit", sans-serif;
+    font-style: normal;
+    color: white;
+    font-weight: 900;
+    font-size: 22px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.header_nav-button-img {
+    max-width: 45px;
+    width: 100%;
+    padding-right: 15px;
+}
+
+
+
+.block__items {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.block__item-creation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.block__creation-label {
+    font-family: "Kanit", sans-serif;
+    font-style: normal;
+    color: white;
+    font-weight: 900;
+    font-size: 25px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.block__creation-input {
+    font-family: "Kanit", sans-serif;
+    font-style: normal;
+    color: #ffd502;
+    font-weight: 900;
+    font-size: 20px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    border: 1px solid #ffffff;
+    max-height: 25px;
+    width: 100%;
+}
+
+.cardNumber {}
+
+.customerName {}
+
+.expEnd {}
+
+.block__creation-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #e3000b;
+    font-family: "Kanit", sans-serif;
+    font-style: normal;
+    color: white;
+    font-weight: 900;
+    font-size: 22px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.buttonCardNumber {}
+
+.block__item-card,
+.block__card-top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 550px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.block__item-card {
+    flex-direction: column;
+    height: 320px;
+    background-color: #ffd502;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+.block__card-top {
+    position: absolute;
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 130px;
+    margin-top: -220px;
+}
+
+.card__top-title,
+.card__down-number,
+.card__down-label,
+.card__down-date,
+.card__down-name {
+    font-family: "Kanit", sans-serif;
+    font-style: normal;
+    color: white;
+    font-weight: 900;
+    font-size: 35px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    margin: 10px;
+}
+
+.card__top-chip {
+    height: 45px;
+}
+
+.card__top-symbol {
+    width: 45px;
+}
+
+.card__top-logo {
+    width: 50px;
+}

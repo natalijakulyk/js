@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS.FORM-3</title>
+    <link rel="stylesheet" href="./style(3).css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@500&family=Russo+One&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="headaer__nav">
+            <a href="./index(1).html" class="header_nav-logo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/LEGO_logo.svg/512px-LEGO_logo.svg.png"
+                    alt="" class="header__nav-logo-img">
+            </a>
+            <div class="header_nav-list">
+                <a href="./index(1).html" class="nav-list_item">ABOUT US</a>
+                <a href="https://www.lego.com/cs-cz/categories/lego-merchandise" class="nav-list_item">TRADE</a>
+                <a href="https://www.lego.com/cs-cz/aboutus" class="nav-list_item">FIND OUT MORE</a>
+                <a href="https://www.lego.com/cs-cz/stores" class="nav-list_item">STORE</a>
+            </div>
+            <a href="" class="header_nav-button">
+                <img src="./img/lego head.png" alt="" class="header_nav-button-img">
+                Log in</a>
+        </nav>
+    </header>
+
+    <div class="block__items">
+        <div class="block__item-creation">
+            <label for="" class="block__creation-label">Card name</label>
+            <input type="text" class="block__creation-input cardNumber" placeholder="0000 0000 0000 0000">
+            <label for="" class="block__creation-label">Customer Name</label>
+            <input type="text" class="block__creation-input customerName" placeholder="Name Surname">
+            <label for="" class="block__creation-label">Exp. End:</label>
+            <input type="text" class="block__creation-input expEnd" placeholder="12/12">
+            <button class="block__creation-button buttonCardNumber">Get your Card Number</button>
+        </div>
+
+        <div class="block__item-card">
+            <div class="block__card-top">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/LEGO_logo.svg/512px-LEGO_logo.svg.png" alt=""
+                    class="card__top-logo">
+                <img src="./img/card chip.png" alt="" class="card__top-chip">
+                <img src="./img/contact less.png" alt="" class="card__top-symbol">
+            </div>
+        
+            <div class="block__card-down">
+                <p class="card__down-number textCardNumber"></p>
+                <div class="card__down-block">
+                    <p class="card__down-date textExpEnd"></p>
+                </div>
+                <p class="card__down-name textCustomerName"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script(3).js"></script>
+</body>
+
+</html>
